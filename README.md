@@ -2,6 +2,7 @@
 Personal Website
 
 Need some fixing on...
--Make email form look better
--May need formatting to fit every sized screen
--Make code more readable
+\n-Make email form look better
+\n-May need formatting to fit every sized screen
+\n-Make code more readable
+\n-Fix ugly font of about me section
