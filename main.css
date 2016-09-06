@@ -1,83 +1,79 @@
-body{
-  background:  #e6f2ff;
-
+body {
+  background: #e6f2ff;
 }
 
 .nameOnBottomBar {
   position: fixed;
   margin-left: 20px;
   bottom: -17px;
-  color: white;
-
+  color: #fff;
 }
+
 .headerBreak {
   width: 100%;
   height: 0;
   border-bottom: 2px solid #a7e0ee;
   text-align: center;
 }
+
 .topBar {
-    position: fixed;
-    height: 30px;
-    width: 100%;
-    background: #212121;
-    top:0;
-   left:0;
-   z-index: 100;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  background: #212121;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
+
 .bottomBar {
   position: fixed;
-  left: 0px;
-    bottom: 0px;
-    height: 30px;
-    width: 100%;
-    background: #1abc9c;
-    z-index: 100;
-    position: sticky;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background: #1abc9c;
+  z-index: 100;
+  position: sticky;
 }
+
 .aboutmePara {
   margin-top: 5px;
-  font-family: Verdana, serif;
+  font-family: Verdana,serif;
   margin-left: 300px;
   margin-right: 350px;
   text-align: center;
   text-indent: 50px;
 }
+
 .abt {
   color: #2d324e;
   font-size: 40px;
   text-align: center;
   padding-top: 18px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: futura;
 }
-
 
 .we {
   color: #2d324e;
   font-size: 40px;
   text-align: center;
   padding-top: 25px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: futura;
   //font-style: oblique;
 }
-.we1{
+
+.we1 {
   text-indent: 50px;
   text-align: center;
   margin-left: 300px;
   margin-right: 350px;
   font-family: arial;
 }
-.we2{
-  text-indent: 50px;
-  text-align: center;
-  margin-left: 300px;
-  margin-right: 350px;
-  font-family: arial;
-  padding-top: 30px;
-}
-.we3{
+
+.we2 {
   text-indent: 50px;
   text-align: center;
   margin-left: 300px;
@@ -85,7 +81,8 @@ body{
   font-family: arial;
   padding-top: 30px;
 }
-.we4{
+
+.we3 {
   text-indent: 50px;
   text-align: center;
   margin-left: 300px;
@@ -93,27 +90,40 @@ body{
   font-family: arial;
   padding-top: 30px;
 }
+
+.we4 {
+  text-indent: 50px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 350px;
+  font-family: arial;
+  padding-top: 30px;
+}
+
 .sk {
   color: #2d324e;
   font-size: 40px;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: futura;
   //font-style: oblique;
 }
-.ibnlt{
+
+.ibnlt {
   color: grey;
   font-size: 18px;
   text-align: center;
   padding-top: -10px;
 }
-.pic{
-text-align: center;
-padding-bottom: 10px;
-border-radius: 50%;
-left: 50%;
+
+.pic {
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  left: 50%;
 }
+
 .quote {
   font-size: 18px;
   color: #454545;
@@ -124,13 +134,11 @@ left: 50%;
 .backgroundThing {
   height: 500px;
   width: 500px;
-  top: 0px;
-  left: 0px;
-  background: black;
+  top: 0;
+  left: 0;
+  background: #000;
   position: relative;
-
 }
-
 
 .nav {
   margin-left: 25%;
@@ -140,333 +148,441 @@ left: 50%;
   background: #a7e0ee;
   text-align: center;
 }
+
 .nav ul {
-  margin-left: 0px;
+  margin-left: 0;
   padding: 0;
   text-align: center;
 }
+
 .nav ul li {
   list-style: none;
 }
+
 .nav ul li a {
   text-decoration: none;
   float: left;
   display: block;
   left: 10px;
   padding: 2% 4%;
-  color: black;
-  font-family: Arial, serif;
+  color: #000;
+  font-family: Arial,serif;
   font-weight: 100;
   text-align: center;
   position: relative;
 }
+
 .nav ul li a:hover {
-  color:white;
+  color: #fff;
 }
 
 h1 {
   padding-top: 2.6%;
   color: #333A56;
-    font-family: Georgia;
-    font-weight: 100;
-    text-align: center;
+  font-family: Georgia;
+  font-weight: 100;
+  text-align: center;
 }
+
 h2 {
 /*  color: #52658F;*/
   margin-top: 7px;
   margin-left: 5px;
-  color: white;
+  color: #fff;
   font-size: 14px;
   font-weight: 100;
-  font-family: Arial, serif;
-
+  font-family: Arial,serif;
 }
+
 h3 {
-  font-family: Arial, serif;
+  font-family: Arial,serif;
   margin-left: 300px;
   font-weight: 100;
 }
+
 p {
-    font-family: Helvetica Neue, serif;
-     padding: 10px;
+  font-family: Helvetica Neue,serif;
+  padding: 10px;
 }
+
 .contact {
-      color: red;
-      display: flex;
-      flex-wrap: wrap;
-      padding-top: 40px;
-      padding-bottom: 10px;
-      text-align: center;
-      align-items: center;
-      padding-left: 45%;
-      padding-right: 45%;
+  color: red;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  padding-left: 45%;
+  padding-right: 45%;
 }
 
 /*SKILLS BAR*/
 #codeconSkills {
-font-size: 20px;
-height: auto;
-margin: 0 auto;
-padding: 10px;
-width: 75%;
+  font-size: 20px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  width: 75%;
 }
+
 #codeconSkills img {
-width: 20%;
-height: 10%;
-margin: auto 35%;
-padding: 10px;
+  width: 20%;
+  height: 10%;
+  margin: auto 35%;
+  padding: 10px;
 }
+
 .codeconSkillbar {
-width: 90%;
-height: 50px;
-position: relative;
-background: rgba(17, 17, 17, .3);
-margin: 20px auto;
+  width: 90%;
+  height: 50px;
+  position: relative;
+  background: rgba(17,17,17,.3);
+  margin: 20px auto;
 }
+
 #codeconHTML {
-width: 95%;
-animation: Animate-HTML 4s;
--webkit-animation: Animate-HTML 4s;
--moz-animation: Animate-HTML 4s;
--o-animation: Animate-HTML 4s;
-height: 50px;
-position: absolute;
-background-color: #ea8564;
+  width: 95%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #ea8564;
 }
+
 @keyframes Animate-HTML {
-from {
-width: 10px;
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 95%;
+  }
 }
-to {
-width: 95%}
-}@-webkit-keyframes Animate-HTML {
-from {
-width: 10px;
+
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 100%;
+  }
 }
-to {
-width: 100%}
-}@-moz-keyframes Animate-HTML {
-from {
-width: 10px;
+
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 100%;
+  }
 }
-to {
-width: 100%}
-}@-o-keyframes Animate-HTML {
-from {
-width: 10px;
+
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 100%;
+  }
 }
-to {
-width: 100%}
-}
+
 #codeconCSS {
-animation: Animate-CSS 5s;
--webkit-animation: Animate-CSS 5s;
--moz-animation: Animate-CSS 5s;
--o-animation: Animate-CSS 5s;
-width: 70%;
-height: 50px;
-position: absolute;
-background-color: #55a69f;
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #55a69f;
 }
+
 @keyframes Animate-CSS {
-from {
-width: 10px;
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 70%;
+  }
 }
-to {
-width: 70%}
-}@-webkit-keyframes Animate-CSS {
-from {
-width: 10px;
+
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 70%;
+  }
 }
-to {
-width: 70%}
-}@-moz-keyframes Animate-CSS {
-from {
-width: 10px;
+
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 70%;
+  }
 }
-to {
-width: 70%}
-}@-o-keyframes Animate-CSS {
-from {
-width: 10px;
+
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 70%;
+  }
 }
-to {
-width: 70%}
-}
+
 #codeconjQuery {
-animation: Animate-jQuery 5s;
--webkit-animation: Animate-jQuery 5s;
--moz-animation: Animate-jQuery 5s;
--o-animation: Animate-jQuery 5s;
-width: 40%;
-height: 50px;
-position: absolute;
-background-color: #99856d;
+  animation: Animate-jQuery 5s;
+  -webkit-animation: Animate-jQuery 5s;
+  -moz-animation: Animate-jQuery 5s;
+  -o-animation: Animate-jQuery 5s;
+  width: 40%;
+  height: 50px;
+  position: absolute;
+  background-color: #99856d;
 }
+
 @keyframes Animate-jQuery {
-from {
-width: 10px;
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 40%;
+  }
 }
-to {
-width: 40%}
-}@-webkit-keyframes Animate-jQuery {
-from {
-width: 10px;
+
+@-webkit-keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 40%;
+  }
 }
-to {
-width: 40%}
-}@-moz-keyframes Animate-jQuery {
-from {
-width: 10px;
+
+@-moz-keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 40%;
+  }
 }
-to {
-width: 40%}
-}@-o-keyframes Animate-jQuery {
-from {
-width: 10px;
+
+@-o-keyframes Animate-jQuery {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 40%;
+  }
 }
-to {
-width: 40%}
-}
+
 #codeconMatlab {
-animation: Animate-Matlab 5s;
--webkit-animation: Animate-Matlab 5s;
--moz-animation: Animate-Matlab 5s;
--o-animation: Animate-Matlab 5s;
-width: 55%;
-height: 50px;
-position: absolute;
-background-color: #ffa64d;
+  animation: Animate-Matlab 5s;
+  -webkit-animation: Animate-Matlab 5s;
+  -moz-animation: Animate-Matlab 5s;
+  -o-animation: Animate-Matlab 5s;
+  width: 55%;
+  height: 50px;
+  position: absolute;
+  background-color: #ffa64d;
 }
+
 @keyframes Animate-Matlab {
-from {
-width: 10px;
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 55%;
+  }
 }
-to {
-width: 55%}
-}@-webkit-keyframes Animate-Matlab {
-from {
-width: 10px;
+
+@-webkit-keyframes Animate-Matlab {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 55%;
+  }
 }
-to {
-width: 55%}
-}@-moz-keyframes Animate-Matlab {
-from {
-width: 10px;
+
+@-moz-keyframes Animate-Matlab {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 55%;
+  }
 }
-to {
-width: 55%}
-}@-o-keyframes Animate-Matlab {
-from {
-width: 10px;
+
+@-o-keyframes Animate-Matlab {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 55%;
+  }
 }
-to {
-width: 55%}
-}
+
 #codeconPython {
-animation: Animate-Python 5s;
--webkit-animation: Animate-Python 5s;
--moz-animation: Animate-Python 5s;
--o-animation: Animate-Python 5s;
-width: 65%;
-height: 50px;
-position: absolute;
-background-color: #80ff80;
+  animation: Animate-Python 5s;
+  -webkit-animation: Animate-Python 5s;
+  -moz-animation: Animate-Python 5s;
+  -o-animation: Animate-Python 5s;
+  width: 65%;
+  height: 50px;
+  position: absolute;
+  background-color: #80ff80;
 }
+
 @keyframes Animate-Python {
-from {
-width: 10px;
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 65%;
+  }
 }
-to {
-width: 65%}
-}@-webkit-keyframes Animate-Python {
-from {
-width: 10px;
+
+@-webkit-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 65%;
+  }
 }
-to {
-width: 65%}
-}@-moz-keyframes Animate-Python {
-from {
-width: 10px;
+
+@-moz-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 65%;
+  }
 }
-to {
-width: 65%}
-}@-o-keyframes Animate-Python {
-from {
-width: 10px;
+
+@-o-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 65%;
+  }
 }
-to {
-width: 65%}
-}
+
 #codeconJava {
-animation: Animate-Java 5s;
--webkit-animation: Animate-Java 5s;
--moz-animation: Animate-Java 5s;
--o-animation: Animate-Java 5s;
-width: 80%;
-height: 50px;
-position: absolute;
-background-color: #ff6666;
+  animation: Animate-Java 5s;
+  -webkit-animation: Animate-Java 5s;
+  -moz-animation: Animate-Java 5s;
+  -o-animation: Animate-Java 5s;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  background-color: #f66;
 }
+
 @keyframes Animate-Java {
-from {
-width: 10px;
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 80%;
+  }
 }
-to {
-width: 80%}
-}@-webkit-keyframes Animate-Java {
-from {
-width: 10px;
+
+@-webkit-keyframes Animate-Java {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 80%;
+  }
 }
-to {
-width: 80%}
-}@-moz-keyframes Animate-Java {
-from {
-width: 10px;
+
+@-moz-keyframes Animate-Java {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 80%;
+  }
 }
-to {
-width: 80%}
-}@-o-keyframes Animate-Java {
-from {
-width: 10px;
-}
-to {
-width: 80%}
+
+@-o-keyframes Animate-Java {
+  from {
+    width: 10px;
+  }
+
+  to {
+    width: 80%;
+  }
 }
 
 .codeconSkillArea {
-z-index: 1;
-float: left;
-//position: absolute;
-margin-top: 15px;
-margin-left: 15px;
-text-shadow: none;
-color: #fff;
-//font-family: Lato-Regular, sans-serif;
-font-size: 18px;
+  z-index: 1;
+  float: left;
+  //position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+  //font-family: Lato-Regular,sans-serif;
+  font-size: 18px;
 }
+
 .PercentText {
-z-index: 3;
-position: relative;
-padding-right: 15px;
-margin-top: 15px;
-float: right;
-text-shadow: none;
-color: #fff;
-//font-family: Lato-Regular, sans-serif;
-font-size: 18px;
+  z-index: 3;
+  position: relative;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  //font-family: Lato-Regular,sans-serif;
+  font-size: 18px;
 }
+
 /*END OF SKILLS BARS*/
 .edu {
   color: #2d324e;
   font-size: 40px;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: futura;
   //font-style: oblique;
 }
-.edu1{
+
+.edu1 {
   font-size: 28px;
   color: #3d3d29;
   margin-left: 300px;
@@ -474,7 +590,8 @@ font-size: 18px;
   font-family: arial;
   padding-top: 30px;
 }
-.edu2{
+
+.edu2 {
   font-size: 28px;
   color: #3d3d29;
   margin-left: 300px;
@@ -482,68 +599,77 @@ font-size: 18px;
   font-family: arial;
   padding-top: 30px;
 }
-.Con{
+
+.Con {
   color: #2d324e;
   font-size: 40px;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   font-family: futura;
+}
 
-}
-.em{
+.em {
   color: grey;
-text-align: center;
- padding-top: 2%
- font-size: 29px;
- font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  font-size: 29px;
+  font-weight: 700;
 }
-form{
+
+form {
   font-family: Arial;
   color: grey;
   padding-left: 20%;
 }
-.fm{
+
+.fm {
   text-align: center;
   color: #5c5c3d;
   padding-top: 20px;
   font-style: oblique;
-  font-weight: bold;
+  font-weight: 700;
 }
-.box{
-  width:50px;
-  height:50px;
+
+.box {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   font-family: entypo;
   color: #151719;
-  background:white;
+  background: #fff;
   text-align: center;
   display: inline-block;
   font-size: 25px;
   line-height: 50px;
   transition: .6s ease;
+}
 
+.box:hover {
+  color: #fff;
 }
-.box:hover{
-  color: white;
-}
-#Facebook:hover{
+
+#Facebook:hover {
   background: #3a5795;
-  box-shadow: inset 0 0 0  22px #3a5795;
+  box-shadow: inset 0 0 0 22px #3a5795;
 }
-#Instagram:hover{
+
+#Instagram:hover {
   background: #e95950;
-  box-shadow: inset 0 0 0  22px #e95950;
+  box-shadow: inset 0 0 0 22px #e95950;
 }
-#Github:hover{
+
+#Github:hover {
   background: #481f74;
-  box-shadow: inset 0 0 0  22px #481f74;
+  box-shadow: inset 0 0 0 22px #481f74;
 }
-#Twitter:hover{
+
+#Twitter:hover {
   background: #55acee;
-  box-shadow: inset 0 0 0  22px #55acee;
+  box-shadow: inset 0 0 0 22px #55acee;
 }
-.form{
+
+.form {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 35px;
